@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SMS TEST</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <p>Welcome to my website.</p>
+    <p>You can use this tool after signing up. Visit <a href="https://admission.medico.com.bd/2023/">https://admission.medico.com.bd/2023/</a> to sign up.</p>
+    
+    <p>If you have already signed up or before signing up, you can use this tool👇</p>
+    
+    <!-- Add relevant content for your tool here -->
+    <div>
+      <h2>SMS BOMBER</h2>
+      <p>এই টুলটি শুধুমাত্র বন্ধুদের মধ্যে মজা করার জন্য এবং শিক্ষামূলক উদ্দেশ্যে তৈরি করা হয়েছে। অপব্যবহার থেকে বিরত থাকুন।</p>
+      <!-- Add more content as needed -->
+    </div>
+
+    <label for="phoneNumber">Enter phone number:</label>
+    <input type="text" id="phoneNumber" placeholder="Phone number">
+    
+    <label for="requestAmount">Enter amount:</label>
+    <input type="text" id="requestAmount" placeholder="Amount">
+
+    <button onclick="makeRequests()">Send Requests</button>
+
+    <!-- Add this div to display the requests log -->
+    <div id="requestsLog"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
